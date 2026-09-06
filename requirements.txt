@@ -3,6 +3,6 @@ numpy
 scikit-learn
 matplotlib
 seaborn
-mlflow
+mlflow==3.15.2
 streamlit
 pytest
