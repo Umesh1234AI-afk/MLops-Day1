@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Umesh Chandra/Desktop/MLops-Day1/mlruns/2/models/m-bcc35a66d68b4deb86966a5ab1cabd68/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.15
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.15.2
+model_id: m-bcc35a66d68b4deb86966a5ab1cabd68
+model_size_bytes: 1953210
+model_uuid: m-bcc35a66d68b4deb86966a5ab1cabd68
+prompts: null
+run_id: f963f0bdeed946f791cfa377fb77291a
+utc_time_created: '2026-09-06 08:49:11.562793'
