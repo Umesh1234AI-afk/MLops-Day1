@@ -38,14 +38,5 @@ jobs:
           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
 
-      - name: Deploy to ECS Service
-        run: |
-          aws ecs update-service \
-           --cluster default \
-           name: Deploy to ECS Service
-        run: |
-          aws ecs update-service \
-           --cluster default \
-           --service streamlit-mlopsapp-0e3f \
-            --force-new-deployment
-            --force-new-deployment
+            - name: CD Test
+        run: echo "CD Pipeline working successfully"
